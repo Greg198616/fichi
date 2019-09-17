@@ -1,0 +1,64 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, big, em, font, img, small, strong, sub, sup, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit;  font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;}
+:focus { outline: 0;}
+ol, ul { list-style: none;}
+table { border-collapse: separate; border-spacing: 0;}
+caption, th, td { text-align: left; font-weight: normal;}
+strong,b{font-weight:bold}
+em{font-style:italic}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body {color:#666;}
+* {box-sizing: border-box;}
+	
+	@font-face {
+    font-family: 'PFDinTextCondProBold';
+    src: url('fonts/PFDinTextCondProBold.eot');
+    src: url('fonts/PFDinTextCondProBold.eot') format('embedded-opentype'),
+         url('fonts/PFDinTextCondProBold.woff2') format('woff2'),
+         url('fonts/PFDinTextCondProBold.woff') format('woff'),
+         url('fonts/PFDinTextCondProBold.ttf') format('truetype'),
+         url('fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+	}
+	section{
+		position:relative;
+		width:100%;
+		height:100vh;
+		background:#111;
+		overflow:hidden;
+		
+	}
+	h2{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		color:#fff;
+		font-size:50px;
+		text-transform:uppercase;
+	}
+	h2 span{
+		display:inline-block;
+		transition:1.5s
+	}
+	h2:hover span{
+		filter:blur(20px);
+		opacity:0;
+		transform:scale(2)
+	}
+	.clr {
+		clear:both;
+		}
+		
+	@media screen and (max-width: 1180px) { /* 980<width<1180 main 980*/
+
+}
+/*-------------------------------------*/
+@media screen and (max-width: 979px) { /* 768<width<979 main 768*/
+
+}
+/*-------------------------------------*/
+@media screen and (max-width: 767px) { /* 480<width<767 main 480*/
+}
+/*-------------------------------------*/
+@media screen and (max-width: 479px) { /* 320<width<479 main 320*/
+}
